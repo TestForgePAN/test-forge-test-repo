@@ -32,7 +32,4 @@ public class MockDataConfig {
     //     user.setUserMobile("91237777");
     //     userService.addNewUser(user);
     // }
-
-
-
 }
