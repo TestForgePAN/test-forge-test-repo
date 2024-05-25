@@ -1,0 +1,28 @@
+version: '3.0'
+services:
+  travel-app-db:
+  
+    container_name: travel-app-db
+    image: postgres 
+    env_file:
+      - ./example-main.env
+    volumes:
+      - postgres_data:/var/lib/postgresql/data/
+    ports:
+      - 5432:5432
+  travel-app-backend:
+ 
+    container_name: travel-app-backend
+    image: soonann/travel-app-backend:latest
+    build: .
+    env_file: ./example-main.env
+    restart: always
+    depends_on:
+      - travel-app-db
+    volumes:
+      - .:/opt/app
+    ports: 
+      - "8080:8080"
+
+volumes:
+  postgres_data:
