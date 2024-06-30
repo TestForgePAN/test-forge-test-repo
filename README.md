@@ -6,6 +6,7 @@ This application is a backend service, some of the frameworks/dependencies in th
 * Spring Boot MVC
 * PostgreSQL
 
+
 * Docker
 * Docker Compose
 * AWS Cognito A
