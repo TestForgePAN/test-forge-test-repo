@@ -9,7 +9,6 @@ This application is a backend service, some of the frameworks/dependencies in th
 * Docker Compose
 * AWS Cognito API (production)
 * AWS ECS (production)
-* AWS RDS (production)
 
 ## Contributors
 * <a href='https://github.com/soonann'>Soon Ann</a>

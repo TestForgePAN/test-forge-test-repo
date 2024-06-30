@@ -11,6 +11,8 @@ import com.travelapp.backend.services.UserService;
 
 @Configuration
 public class MockDataConfig {
+
+    
     
     // some comment
     // private UserService userService;
