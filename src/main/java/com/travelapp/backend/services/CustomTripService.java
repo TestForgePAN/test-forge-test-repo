@@ -23,6 +23,7 @@ public class CustomTripService {
             CustomTripItemRepository customTripItemRepository) {
         this.customTripRepository = customTripRepository;
         this.customTripItemRepository = customTripItemRepository;
+        
     }
 
     
