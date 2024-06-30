@@ -16,6 +16,7 @@ This application is a backend service, some of the frameworks/dependencies in th
 
 ## System Design
 
+
 ### Solution Architecture
 <img src="" alt="Work-In-Progress" />
 
