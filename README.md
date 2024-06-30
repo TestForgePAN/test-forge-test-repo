@@ -11,6 +11,7 @@ tgreSQL
 
 
 
+
 * Docker
 * Docker Compose
 * AWS Cognito A
