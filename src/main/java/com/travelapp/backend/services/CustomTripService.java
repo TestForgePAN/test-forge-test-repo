@@ -11,6 +11,7 @@ import com.travelapp.backend.repositories.CustomTripRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+
 @Service
 public class CustomTripService {
 
@@ -29,6 +30,8 @@ public class CustomTripService {
         return this.customTripRepository.findById(tripId)
                 .orElseThrow(() -> new RuntimeException("Could not find requested CustomTrip"));
     }
+
+    
 
     public List<CustomTrip> retrieveAllCustomTrips() {
         return this.customTripRepository.findAll();
