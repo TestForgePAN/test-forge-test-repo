@@ -30,6 +30,8 @@ public class CustomTripService {
                 .orElseThrow(() -> new RuntimeException("Could not find requested CustomTrip"));
     }
 
+    
+
     public List<CustomTrip> retrieveAllCustomTrips() {
         return this.customTripRepository.findAll();
     }
