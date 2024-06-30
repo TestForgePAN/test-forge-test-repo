@@ -44,9 +44,6 @@ public class CustomTripService {
             customTrip.setTripDuration(params.getTripDuration());
         }
 
-        if (params.getTripName() != null) {
-            customTrip.setTripName(params.getTripName());
-        }
 
         if (params.getCustomTripItems() != null && !params.getCustomTripItems().isEmpty()) {
             // has CustomTripItems
