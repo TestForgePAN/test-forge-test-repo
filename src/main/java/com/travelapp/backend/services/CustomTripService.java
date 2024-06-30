@@ -11,6 +11,7 @@ import com.travelapp.backend.repositories.CustomTripRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+
 @Service
 public class CustomTripService {
 
