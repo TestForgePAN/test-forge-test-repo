@@ -12,7 +12,7 @@ This application is a backend service, some of the frameworks/dependencies in th
 * AWS Cognito A
 
 
-PI (production)
+
 * AWS ECS (pro
 duction)
 
