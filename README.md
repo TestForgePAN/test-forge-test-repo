@@ -10,6 +10,7 @@ This application is a backend service, some of the frameworks/dependencies in th
 * Docker Compose
 * AWS Cognito A
 
+
 PI (production)
 * AWS ECS (pro
 duction)
